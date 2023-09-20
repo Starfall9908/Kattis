@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Greetings {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
+        int n = scanner.nextInt();
         String sectionE = input.substring(1, input.length() - 1);
 
         String result = "";
